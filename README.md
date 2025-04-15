@@ -10,7 +10,7 @@ The main board interfaces with and utilizes a Raspberry Pi Pico to run the logic
 
 The main board has many ports for power and I/O:
 - **Power**
-  -** DC 5V barrel jack** (optional)
+  - **DC 5V barrel jack** (optional)
   - **USB-C jack** (optional)
   - **Toggle switch** (optional)
     
