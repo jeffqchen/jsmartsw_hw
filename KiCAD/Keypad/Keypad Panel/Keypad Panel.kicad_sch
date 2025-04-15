@@ -1,0 +1,80 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
+	(paper "A4")
+	(title_block
+		(title "jSmartSW Keypad Face Panel")
+		(date "2025-04-15")
+		(rev "1.0")
+		(company "Jeff Chen")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 110.49 111.76) (xy 180.34 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65833050-c9a4-47b1-b483-42eb1d683b2f")
+	)
+	(wire
+		(pts
+			(xy 110.49 140.97) (xy 180.34 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65a762c8-7f6d-44d6-bc29-a851a39401d1")
+	)
+	(wire
+		(pts
+			(xy 110.49 85.09) (xy 180.34 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e5ccaa5-1809-4bd4-92e9-cb6a5d3deecd")
+	)
+	(label "2"
+		(at 146.05 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "365dad0a-60e7-4f75-a04a-c2d861563102")
+	)
+	(label "3"
+		(at 146.05 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43af80c1-8e47-4dbb-9b7d-f322d2c80e3f")
+	)
+	(label "1"
+		(at 146.05 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af37baf2-6f60-43f7-bfe2-916055047842")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,176 @@
+(footprint "BST13T1AVR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.18 0 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4a808f69-1982-466b-a41b-34ff04aba567")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "BST13T1AVR"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "54be45fa-053b-4a2d-abf7-b3c43961dbf1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e53f1bf6-5039-4efe-8bcb-e7b9d774bc3e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12d0d681-cc15-4542-a1bd-249cbf6d360c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89657f62-fdd9-46a5-bbf2-cf8e3b659fcc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.19 -2.75)
+		(end -4.19 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b07562f8-c308-4386-a062-1fd1dbf04897")
+	)
+	(fp_line
+		(start -4.19 2.75)
+		(end -4.19 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9b4b6cb1-c391-47c2-b887-b8f3f41dc465")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8f3aa982-28c4-4f08-a258-a2bb84e368d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(dimension
+		(type aligned)
+		(layer "F.Fab")
+		(uuid "7dbb1986-a713-4162-ad1c-cbf0350374a3")
+		(pts
+			(xy 0 0) (xy -4.19 0)
+		)
+		(height 8.22)
+		(gr_text "4.1900 mm"
+			(at -2.095 -9.32 0)
+			(layer "F.Fab")
+			(uuid "7dbb1986-a713-4162-ad1c-cbf0350374a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(pad "" smd circle
+		(at 10.16 0)
+		(size 1.2 1.2)
+		(layers "Dwgs.User")
+		(uuid "67f322e7-4652-4daa-b1d2-f998c7654af4")
+	)
+	(pad "1" thru_hole circle
+		(at 5.08 0)
+		(size 1.5 1.5)
+		(drill oval 0.9 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1ae633e9-2984-4d9f-b934-e3e60676936a")
+	)
+	(pad "2" thru_hole circle
+		(at 7.62 0)
+		(size 1.5 1.5)
+		(drill oval 0.9 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "741c72d1-90e6-44ca-a2f2-aaab12d59cd6")
+	)
+	(pad "S" thru_hole circle
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill oval 0.9 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "524b5bb9-9daf-43fa-8dca-839838691b7f")
+	)
+	(model "${KICAD_JEFF_FILES_DIR}/Switches/BST13T1AVR 3PDT/BST13T1AVR 3PDT v1.step"
+		(offset
+			(xyz -4.19 2.95 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)
