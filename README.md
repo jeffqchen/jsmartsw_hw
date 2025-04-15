@@ -78,4 +78,4 @@ The keypad is the primary user interface of jSmartSW. It has a screen, addressab
 
   Cosmetic face panel with markings. Markings will be illuminated by the RGB LEDs.
 
-- 3D printed Keypad body shell & light shrould
+- 3D printed Keypad body shell & light shroud
