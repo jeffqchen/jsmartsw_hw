@@ -11,10 +11,17 @@ The main board interfaces with and utilizes a Raspberry Pi Pico to run the logic
 The main board has many ports for power and I/O:
 - **Power**
   - **DC 5V barrel jack** (optional)
+
+    The preferred source to power jSmartSW.
+    
   - **USB-C jack** (optional)
+ 
+    USB functionality is provided via this port. You can also power the jSmartSW from this port.
+
   - **Toggle switch** (optional)
     
-    for turning the power from the barrel jack and USB-C jack on or off 
+    For turning the power from the barrel jack and USB-C jack on or off.
+    
  
 - **Video & Audio**
   - **HD15 video/audio passthrough input** (optional, suggested):
@@ -28,6 +35,7 @@ The main board has many ports for power and I/O:
   - **3.5mm TRS barrel jack**:
     
     Audio signal input from the passthrough input pin 12 & 15 is broken out to this port, so you can use a 3.5mm TRS audio cable and feed it to the RetroTink 4K.
+    
 
 - **Communication**
   - **2x4 right-angle pin header**:
