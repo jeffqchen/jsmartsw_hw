@@ -2,7 +2,7 @@
 
 This is the hardware repository of the jSmartSW project.
 
-The hardware is consistend of two parts. The jSmartSW mainboard contains the main I/O and logic board. The keypad contains visual feedback interfaces and tactile inputs.
+The hardware is consisted of two parts. The jSmartSW mainboard contains the main I/O and logic board. The keypad contains visual feedback interfaces and tactile inputs.
 
 Detailed building guides and technical details are documented in the project wiki pages.
 
