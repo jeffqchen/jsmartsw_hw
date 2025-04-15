@@ -4,6 +4,8 @@ This is the hardware repository of the jSmartSW project.
 
 The hardware is consistend of two parts. The jSmartSW mainboard contains the main I/O and logic board. The keypad contains visual feedback interfaces and tactile inputs.
 
+Detailed building guides and technical details are documented in the project wiki pages.
+
 ## Primary Parts
 
 ### Main Board
@@ -57,6 +59,8 @@ The main board has many ports for power and I/O:
     When connected to the RetroTink 4K, it will become the preferred channel of communication. It also supplies power into the RetroTink 4K. In this case, the 5V barreljack must be populated as the main source of power.
 
 ### Keypad
+
+The keypad is the primary user interface of jSmartSW. It has a screen, addressable RGB LEDs, and 8 key switches.
 
 - Screen
 
