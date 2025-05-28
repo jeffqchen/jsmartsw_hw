@@ -70,7 +70,7 @@ The keypad is the primary user interface of jSmartSW. It has a screen, addressab
 
   An array of addressabvle RGB LEDs for indicating device running state and prodiving visual assistance.
   
-- 8x Cherry MX keyboard switches
+- 8x Cherry MX keyboard switches with XDA key caps
 
   An array of keyboard switches for controlling functionalities of jSmartSW.
 
