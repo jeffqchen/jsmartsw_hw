@@ -6,6 +6,8 @@ The hardware is consisted of two parts. The jSmartSW mainboard contains the main
 
 Detailed building guides and technical details are documented in the project wiki pages.
 
+For functionality and day-to-day usage, please refer to the [main project repository](https://github.com/jeffqchen/jSmartSW)
+
 ## Primary Parts
 
 ### Main Board
